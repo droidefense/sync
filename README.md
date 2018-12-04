@@ -8,7 +8,7 @@
     <a href="https://github.com/zerjioang/api.droidefense/releases/latest">
     <a href="/LICENSE"><img alt="Software License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
     <a href="https://travis-ci.com/zerjioang/Droidefense">
-      <img alt="Build Status" src="https://travis-ci.com/zerjioang/api.droidefense.svg?token=RiWGQvbiZYFufGybxvhU&branch=master">
+      <img alt="Build Status" src="https://travis-ci.org/droidefense/sync.svg?branch=master">
     </a>
     <a href="https://github.com/zerjioang/api.droidefense">
       <img alt="Powered By: GoReleaser" src="https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=flat-square"></a>
