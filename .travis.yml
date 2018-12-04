@@ -1,0 +1,6 @@
+os:
+  - linux
+script:
+  - ./deploy_notifier.sh
+after_success:
+  - echo "successfully deployment test done"
