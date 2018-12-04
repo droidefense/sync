@@ -9,7 +9,7 @@
 function existsContainer(){
 	containerName=$1
 	result=$(docker ps -aq -f name=$containerName)
-	if [ -n $result ]; then
+	if [ -n "$result" ]; then
 	    return 0 #true
 	else
 		return 1 #false
@@ -20,7 +20,7 @@ function existsContainer(){
 function isContainerMissing(){
 	containerName=$1
 	result=$(docker ps -aq -f name=$containerName)
-	if [ -n $result ]; then
+	if [ -n "$result" ]; then
 	    return 1 #false
 	else
 		return 0 #true
